@@ -1,6 +1,7 @@
-package org.teamavion.brewery.client;
+package com.kreezcraft.beverages.client;
 
-import org.teamavion.brewery.block.tile.TileBrewery;
+import com.kreezcraft.beverages.block.tile.TileBrewery;
+
 import net.minecraft.client.renderer.EntityRenderer;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.entity.Entity;

@@ -1,7 +1,5 @@
-package org.teamavion.brewery.block;
+package com.kreezcraft.beverages.block;
 
-import org.teamavion.brewery.block.tile.TileBrewery;
-import org.teamavion.brewery.client.RenderTileBrewery;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -13,6 +11,9 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 import static net.minecraftforge.fml.common.registry.GameRegistry.registerTileEntity;
+
+import com.kreezcraft.beverages.block.tile.TileBrewery;
+import com.kreezcraft.beverages.client.RenderTileBrewery;
 
 public class ModBlocks {
 

@@ -1,11 +1,12 @@
-package org.teamavion.brewery;
+package com.kreezcraft.beverages;
+
+import com.kreezcraft.beverages.item.ModItems;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import org.teamavion.brewery.item.ModItems;
 
 public class Reference {
 

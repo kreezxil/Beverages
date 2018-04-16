@@ -1,8 +1,5 @@
-package org.teamavion.brewery.block;
+package com.kreezcraft.beverages.block;
 
-import org.teamavion.brewery.Reference;
-import org.teamavion.brewery.block.tile.TileBrewery;
-import org.teamavion.brewery.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
@@ -19,6 +16,10 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
+
+import com.kreezcraft.beverages.Reference;
+import com.kreezcraft.beverages.block.tile.TileBrewery;
+import com.kreezcraft.beverages.item.ModItems;
 
 public class BlockBrewery extends Block implements ITileEntityProvider {
 

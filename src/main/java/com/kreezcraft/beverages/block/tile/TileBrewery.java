@@ -1,6 +1,5 @@
-package org.teamavion.brewery.block.tile;
+package com.kreezcraft.beverages.block.tile;
 
-import org.teamavion.brewery.item.ModItems;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.init.Blocks;
@@ -13,9 +12,11 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ITickable;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
-import org.teamavion.brewery.recipe.BreweryRecipeHandler;
-
 import javax.annotation.Nullable;
+
+import com.kreezcraft.beverages.item.ModItems;
+import com.kreezcraft.beverages.recipe.BreweryRecipeHandler;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;

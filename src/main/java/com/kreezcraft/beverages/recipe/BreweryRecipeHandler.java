@@ -1,6 +1,7 @@
-package org.teamavion.brewery.recipe;
+package com.kreezcraft.beverages.recipe;
 
-import org.teamavion.brewery.Reference;
+import com.kreezcraft.beverages.Reference;
+
 import net.minecraft.item.Item;
 
 /**

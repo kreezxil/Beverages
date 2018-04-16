@@ -1,4 +1,4 @@
-package org.teamavion.brewery.proxy;
+package com.kreezcraft.beverages.proxy;
 
 @SuppressWarnings("unused")
 public class ServerProxy implements CommonProxy {

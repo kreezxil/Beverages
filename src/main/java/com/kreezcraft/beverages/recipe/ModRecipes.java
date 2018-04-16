@@ -1,7 +1,7 @@
-package org.teamavion.brewery.recipe;
+package com.kreezcraft.beverages.recipe;
 
-import org.teamavion.brewery.block.ModBlocks;
-import org.teamavion.brewery.item.ModItems;
+import com.kreezcraft.beverages.item.ModItems;
+
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;

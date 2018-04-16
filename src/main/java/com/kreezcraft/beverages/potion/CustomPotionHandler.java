@@ -1,13 +1,14 @@
-package org.teamavion.brewery.potion;
+package com.kreezcraft.beverages.potion;
 
-import org.teamavion.brewery.Reference;
-import org.teamavion.brewery.block.tile.TileBrewery;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 
 import java.util.concurrent.ThreadLocalRandom;
+
+import com.kreezcraft.beverages.Reference;
+import com.kreezcraft.beverages.block.tile.TileBrewery;
 
 public class CustomPotionHandler {
 

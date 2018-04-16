@@ -1,6 +1,7 @@
-package org.teamavion.brewery.block;
+package com.kreezcraft.beverages.block;
 
-import org.teamavion.brewery.Reference;
+import com.kreezcraft.beverages.Reference;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 

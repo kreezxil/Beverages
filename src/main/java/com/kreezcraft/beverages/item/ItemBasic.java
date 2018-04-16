@@ -1,6 +1,7 @@
-package org.teamavion.brewery.item;
+package com.kreezcraft.beverages.item;
 
-import org.teamavion.brewery.Reference;
+import com.kreezcraft.beverages.Reference;
+
 import net.minecraft.item.Item;
 
 public class ItemBasic extends Item {

@@ -1,6 +1,7 @@
-package org.teamavion.brewery.potion;
+package com.kreezcraft.beverages.potion;
 
-import org.teamavion.brewery.Reference;
+import com.kreezcraft.beverages.Reference;
+
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.ResourceLocation;

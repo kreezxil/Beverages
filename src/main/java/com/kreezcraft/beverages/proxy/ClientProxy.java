@@ -1,8 +1,7 @@
-package org.teamavion.brewery.proxy;
+package com.kreezcraft.beverages.proxy;
 
-
-import org.teamavion.brewery.block.ModBlocks;
-import org.teamavion.brewery.item.ModItems;
+import com.kreezcraft.beverages.block.ModBlocks;
+import com.kreezcraft.beverages.item.ModItems;
 
 @SuppressWarnings("unused")
 public class ClientProxy implements CommonProxy {

@@ -1,4 +1,4 @@
-package org.teamavion.brewery.book;
+package com.kreezcraft.beverages.book;
 
 import amerifrance.guideapi.api.GuideAPI;
 import amerifrance.guideapi.api.GuideBook;
@@ -20,11 +20,12 @@ import net.minecraft.util.text.TextFormatting;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
-import org.teamavion.brewery.Reference;
-import org.teamavion.brewery.block.ModBlocks;
-import org.teamavion.brewery.item.ModItems;
-
 import javax.annotation.Nullable;
+
+import com.kreezcraft.beverages.Reference;
+import com.kreezcraft.beverages.block.ModBlocks;
+import com.kreezcraft.beverages.item.ModItems;
+
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

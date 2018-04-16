@@ -1,6 +1,7 @@
-package org.teamavion.brewery.item;
+package com.kreezcraft.beverages.item;
 
-import org.teamavion.brewery.entity.projectile.EntityPotion;
+import com.kreezcraft.beverages.entity.projectile.EntityPotion;
+
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;

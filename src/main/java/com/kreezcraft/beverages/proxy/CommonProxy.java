@@ -1,4 +1,4 @@
-package org.teamavion.brewery.proxy;
+package com.kreezcraft.beverages.proxy;
 
 public interface CommonProxy {
     void preInit();

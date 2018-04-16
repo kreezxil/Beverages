@@ -1,8 +1,8 @@
-package org.teamavion.brewery.item;
+package com.kreezcraft.beverages.item;
 
-import org.teamavion.brewery.Brewery;
-import org.teamavion.brewery.Reference;
-import org.teamavion.brewery.entity.projectile.EntityPotion;
+import com.kreezcraft.beverages.Reference;
+import com.kreezcraft.beverages.entity.projectile.EntityPotion;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.renderer.entity.RenderSnowball;

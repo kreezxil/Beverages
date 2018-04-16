@@ -1,7 +1,5 @@
-package org.teamavion.brewery.entity.projectile;
+package com.kreezcraft.beverages.entity.projectile;
 
-import org.teamavion.brewery.item.ModItems;
-import org.teamavion.brewery.potion.CustomPotionHandler;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.projectile.EntityThrowable;
 import net.minecraft.item.ItemStack;
@@ -11,6 +9,9 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
 import java.util.List;
+
+import com.kreezcraft.beverages.item.ModItems;
+import com.kreezcraft.beverages.potion.CustomPotionHandler;
 
 public class EntityPotion extends EntityThrowable {
 
@@ -44,7 +45,7 @@ public class EntityPotion extends EntityThrowable {
         if (!list.isEmpty()) {
             for (EntityLivingBase entityLiving : list) {
                 if (entityLiving.canBeHitWithPotion()) {
-                    double distance = this.getDistanceSqToEntity(entityLiving);
+                    double distance = this.getDistanceSq(entityLiving);
 
                     if (distance < 16.0D) {
                         CustomPotionHandler.addToxicity(entityLiving);

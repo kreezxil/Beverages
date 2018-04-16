@@ -1,4 +1,4 @@
-package org.teamavion.brewery.potion;
+package com.kreezcraft.beverages.potion;
 
 import net.minecraft.potion.Potion;
 import net.minecraft.util.ResourceLocation;

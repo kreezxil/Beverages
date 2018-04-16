@@ -1,4 +1,4 @@
-package org.teamavion.brewery.potion;
+package com.kreezcraft.beverages.potion;
 
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.potion.Potion;

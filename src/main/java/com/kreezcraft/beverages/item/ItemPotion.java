@@ -1,8 +1,5 @@
-package org.teamavion.brewery.item;
+package com.kreezcraft.beverages.item;
 
-import org.teamavion.brewery.Reference;
-import org.teamavion.brewery.block.tile.TileBrewery;
-import org.teamavion.brewery.potion.CustomPotionHandler;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumAction;
@@ -20,6 +17,10 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 import java.util.List;
+
+import com.kreezcraft.beverages.Reference;
+import com.kreezcraft.beverages.block.tile.TileBrewery;
+import com.kreezcraft.beverages.potion.CustomPotionHandler;
 
 public class ItemPotion extends Item {
 
@@ -110,7 +111,6 @@ public class ItemPotion extends Item {
         return "This should never happen";
     }
 
-    @Override
     public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced){
         String a ="";
         if(stack.getTagCompound() != null)
