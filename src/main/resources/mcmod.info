@@ -1,0 +1,16 @@
+[
+{
+  "modid": "brewery",
+  "name": "Brewery",
+  "description": "Custom Potions",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TjKenMate & WhiteAutumn"],
+  "credits": "ModOff crew for being helpful and Team Avion for testing",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
